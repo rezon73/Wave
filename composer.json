@@ -9,7 +9,7 @@
         "waveform",
         "audio"
     ],
-    "version": "1.2.0",
+    "version": "1.2.1",
     "autoload": {
         "psr-0": {
             "Rezon73\\Wave\\": ""
@@ -17,6 +17,6 @@
     },
     "target-dir": "Rezon73/Wave",
     "require": {
-        "php": ">=5.3.3"    
+        "php": ">=5.3.3"
     }
 }
