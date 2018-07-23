@@ -39,7 +39,7 @@ class Other extends ChunkAbstract
     /**
      * 
      * @param string $data
-     * @return \BoyhagemannWave\Chunk\Other
+     * @return \Rezon73Wave\Chunk\Other
      */
     public function setData($data) 
     {

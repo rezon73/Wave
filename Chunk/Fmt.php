@@ -22,7 +22,7 @@ class Fmt extends ChunkAbstract
     
     /**
      * 
-     * @see BoyhagemannWave\Chunk\ChunkInterface
+     * @see Rezon73Wave\Chunk\ChunkInterface
      * @return string
      */
     public function getName()

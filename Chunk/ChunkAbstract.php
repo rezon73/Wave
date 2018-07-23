@@ -40,7 +40,7 @@ abstract class ChunkAbstract implements ChunkInterface
 
     /**
      * 
-     * @see BoyhagemannWave\Chunk\ChunkInterface
+     * @see Rezon73Wave\Chunk\ChunkInterface
      * @return string
      */
     public function getName()
@@ -50,7 +50,7 @@ abstract class ChunkAbstract implements ChunkInterface
     
     /**
      * 
-     * @see BoyhagemannWave\Chunk\ChunkInterface
+     * @see Rezon73Wave\Chunk\ChunkInterface
      * @return integer
      */
     public function getPosition()
@@ -71,7 +71,7 @@ abstract class ChunkAbstract implements ChunkInterface
     
     /**
      * 
-     * @see BoyhagemannWave\Chunk\ChunkInterface
+     * @see Rezon73Wave\Chunk\ChunkInterface
      * @return integer
      */
     public function getSize()

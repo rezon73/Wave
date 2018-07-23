@@ -2,7 +2,7 @@
 
 namespace Rezon73\Wave\Chunk;
 
-use Boyhagemann\Wave\Channel;
+use Rezon73\Wave\Channel;
 
 /**
  * Description of Data
@@ -28,7 +28,7 @@ class Data extends ChunkAbstract
     
     /**
      * 
-     * @see BoyhagemannWave\Chunk\ChunkInterface
+     * @see Rezon73Wave\Chunk\ChunkInterface
      * @return string
      */
     public function getName()

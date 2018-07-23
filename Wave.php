@@ -85,7 +85,7 @@ class Wave
      * Set the chunk parts
      * 
      * @param array $chunks
-     * @return \BoyhagemannWave\Wave
+     * @return \Rezon73Wave\Wave
      */
     public function setChunks(Array $chunks) 
     {
@@ -111,8 +111,8 @@ class Wave
     /**
      * Set the file handler to read the wave file byte data
      * 
-     * @param \BoyhagemannWave\Stream $fileHandler
-     * @return \BoyhagemannWave\Wave
+     * @param \Rezon73Wave\Stream $fileHandler
+     * @return \Rezon73Wave\Wave
      */
     public function setFileHandler(Stream $fileHandler) 
     {
@@ -143,7 +143,7 @@ class Wave
      * The default number of steps is 100
      * 
      * @param integer $steps
-     * @return \BoyhagemannWave\Wave
+     * @return \Rezon73Wave\Wave
      */
     public function setSteps($steps) 
     {
@@ -348,7 +348,7 @@ class Wave
     /**
      * Get the amplitude of a single channel and a single data block
      * 
-     * @param \BoyhagemannWave\Channel $channel
+     * @param \Rezon73Wave\Channel $channel
      */
     protected function readData(Channel $channel)
     {
