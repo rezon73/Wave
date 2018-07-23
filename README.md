@@ -13,7 +13,7 @@ You can install with composer. Use a composer.json file with the following lines
 ```json
 "minimum-stability": "stable",
 "require": {
-    "boyhagemann/wave": "0.1.*-stable"
+    "rezon73/wave": "1.*"
 }
 ```
 
