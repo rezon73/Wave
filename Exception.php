@@ -1,6 +1,6 @@
 <?php
 
-namespace BoyHagemann\Wave;
+namespace Rezon73\Wave;
 
 /**
  * Description of Exception

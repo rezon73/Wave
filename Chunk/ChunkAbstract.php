@@ -1,11 +1,11 @@
 <?php
 
-namespace BoyHagemann\Wave\Chunk;
+namespace Rezon73\Wave\Chunk;
 
 /**
  * Description of ChunkAbstract
  *
- * @author BoyHagemann
+ * @author Rezon73
  */
 abstract class ChunkAbstract implements ChunkInterface
 {

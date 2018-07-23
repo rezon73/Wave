@@ -1,6 +1,6 @@
 <?php
 
-namespace BoyHagemann\Wave\Chunk;
+namespace Rezon73\Wave\Chunk;
 
 /**
  *

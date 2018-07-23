@@ -1,5 +1,8 @@
 # Wave
 
+#### THIS IS FORK OF https://github.com/boyhagemann/Wave.
+##### BoyHagemann doesn't support his package. I only fixed several troubles. This is the same package with boyhagemann/Wave. 
+
 This package can view metadata from a wave file. It also reads the data chunks and seperates it into multiple channels.
 Each channel has its own amplitude values. This is useful if you want to render a [waveform](http://github.com/boyhagemann/Waveform) for instance.
 
@@ -8,9 +11,9 @@ Each channel has its own amplitude values. This is useful if you want to render 
 You can install with composer. Use a composer.json file with the following lines:
 
 ```json
-"minimum-stability": "dev",
+"minimum-stability": "stable",
 "require": {
-    "boyhagemann/wave": "dev-master"
+    "boyhagemann/wave": "0.1.*-stable"
 }
 ```
 
@@ -20,7 +23,7 @@ First, let's make a wave object based on a wave file:
 ```php
 <?php
 
-use BoyHagemann\Wave\Wave;
+use Rezon73\Wave\Wave;
 
 $wave = new Wave();
 $wave->setFilename('path/to/your/file.wav');
@@ -39,7 +42,7 @@ We are actually only interested in 2 types of chunk: the Fmt and the Data chunk.
 For instance, the "Fmt" chunk contains a description of the wave file contents. To get this metadata,
 you can enter these lines:
 ```php
-$metadata = $wave->analyze()->getMetadata();
+$metadata = $wave->getMetadata();
 $metadata->getName();
 $metadata->getSize();
 $metadata->getFormat();

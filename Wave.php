@@ -1,6 +1,6 @@
 <?php
 
-namespace BoyHagemann\Wave;
+namespace Rezon73\Wave;
 
 /**
  * This class can read the chunks in the wave file and can analyze the

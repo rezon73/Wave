@@ -1,5 +1,5 @@
 {
-    "name": "boyhagemann/wave",
+    "name": "rezon73/wave",
     "description": "A php package to read WAV data",
     "keywords": [
         "php",
@@ -11,16 +11,16 @@
     ],
     "autoload": {
         "psr-0": {
-            "BoyHagemann\\Wave\\": ""
+            "Rezon73\\Wave\\": ""
         }
     },
-    "target-dir": "BoyHagemann/Wave",
+    "target-dir": "Rezon73/Wave",
     "require": {
         "php": ">=5.3.3"    
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "1.0-stable": "master"
         }
     }
 }

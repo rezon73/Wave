@@ -1,6 +1,6 @@
 <?php
 
-namespace BoyHagemann\Wave\Chunk;
+namespace Rezon73\Wave\Chunk;
 
 use Boyhagemann\Wave\Channel;
 
@@ -38,21 +38,22 @@ class Data extends ChunkAbstract
     
     /**
      * 
-     * @return string
+     * @return Channel[]
      */
     public function getChannels()
     {
         return $this->channels;
     }
-    
+
     /**
-     * 
-     * @param string $name
-     * @return Channel
+     * @param $name
+     * @param Channel $channel
+     * @return $this
      */
     public function setChannel($name, Channel $channel)
     {
         $this->channels[$name] = $channel;
+
         return $this;
     }
     
@@ -66,6 +67,7 @@ class Data extends ChunkAbstract
         foreach($channels as $name => $channel) {
             $this->setChannel($name, $channel);
         }
+
         return $this;
     }
 
