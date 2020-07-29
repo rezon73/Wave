@@ -12,7 +12,7 @@ You can install with composer. Use a composer.json file with the following lines
 
 ```json
 "require": {
-    "rezon73/wave": "^1.2"
+    "rezon73/wave": "^1.3"
 }
 ```
 
